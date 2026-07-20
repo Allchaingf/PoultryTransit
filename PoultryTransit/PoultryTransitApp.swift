@@ -2,16 +2,24 @@
 //  PoultryTransitApp.swift
 //  PoultryTransit
 //
-//  Created by Andres Ivanov on 20/07/2026.
+//  Offline poultry-transport workspace. No account, no auth — launches
+//  straight into Splash → Onboarding (first run) → Main app.
 //
 
 import SwiftUI
 
 @main
 struct PoultryTransitApp: App {
+    @StateObject private var store = FarmStore()
+    @StateObject private var prefs = AppPreferences()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
+                .environmentObject(store)
+                .environmentObject(prefs)
+                .preferredColorScheme(prefs.theme.scheme)
+                .accentColor(PT.primary)
         }
     }
 }
