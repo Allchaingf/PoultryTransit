@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F85A8D65300F5A240043BC7D /* codemagic.yaml in Resources */ = {isa = PBXBuildFile; fileRef = F85A8D64300F5A240043BC7D /* codemagic.yaml */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F85A8D2E300E1DB40043BC7D /* PoultryTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoultryTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85A8D64300F5A240043BC7D /* codemagic.yaml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = codemagic.yaml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +50,7 @@
 		F85A8D25300E1DB40043BC7D = {
 			isa = PBXGroup;
 			children = (
+				F85A8D64300F5A240043BC7D /* codemagic.yaml */,
 				F85A8D30300E1DB40043BC7D /* PoultryTransit */,
 				F85A8D2F300E1DB40043BC7D /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F85A8D65300F5A240043BC7D /* codemagic.yaml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
