@@ -4,13 +4,13 @@ workflows:
     max_build_duration: 120
     instance_type: mac_mini_m2
     integrations:
-      app_store_connect: Poultry_Transit
+      app_store_connect: poultry_transit
     environment:
       ios_signing:
         distribution_type: app_store
         bundle_identifier: com.transitpoultry.PoultryTransit
       vars:
-        APP_STORE_CONNECT_KEY: Poultry_Transit
+        APP_STORE_CONNECT_KEY: poultry_transit
         APP_STORE_APPLE_ID: 6785478539
         BUNDLE_ID: "com.transitpoultry.PoultryTransit"
         XCODE_PROJECT: "PoultryTransit.xcodeproj"
