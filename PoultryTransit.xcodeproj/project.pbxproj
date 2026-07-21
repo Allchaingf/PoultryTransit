@@ -272,7 +272,8 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoultryTransit/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use your camera in this application";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Attach a photo of a coop or zone to a note or inspection.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Attach a saved photo to a farm note or inspection.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,7 +318,8 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PoultryTransit/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Allow to use your camera in this application";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Attach a photo of a coop or zone to a note or inspection.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Attach a saved photo to a farm note or inspection.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
